@@ -23,10 +23,12 @@ const HeaderSection = props => {
             <nav class="navbar navbar-expand navbar-dark bg-dark">
                 
                 <Col>
-                <p class="text-center text-white bg-dark">{props.title}</p>
                 </Col>
-                
-                
+                <Col>
+                <p class="text-center text-white bg-dark">{props.title}</p>
+            
+                </Col>
+                      
                 <div>
                 <button type="button" class="btn btn-outline-light" onClick={() => firebase.auth().signOut()}>Sign-out</button>
                 </div>

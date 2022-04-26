@@ -8,7 +8,7 @@ import config from './config'
 
 
 
-//firebase
+
 import firebase from 'firebase/app';
 import "firebase/firestore";
 
@@ -29,7 +29,7 @@ import LoginPage from './Components/LoginForm'
 function App() {
 
 
-  return ( //ใส่หน้าบ้าน
+  return ( 
   
   <div>
     <LoginPage/>

@@ -1,11 +1,12 @@
 const config = {
-  apiKey: "AIzaSyDjIKI-TuXSX5CGL1ioEkYX9Xa0oFe0e2s",
-  authDomain: "client-5fc9d.firebaseapp.com",
-  projectId: "client-5fc9d",
-  storageBucket: "client-5fc9d.appspot.com",
-  messagingSenderId: "982613485556",
-  appId: "1:982613485556:web:ce642124f4dd78f67cfba1",
-  measurementId: "G-76SVRGYQEW"
-};
+  apiKey: "AIzaSyAvDsAJmkXPn_9nHZRl9g4YwWJrCnDfc_4",
+    authDomain: "mini-project-client.firebaseapp.com",
+    databaseURL: "https://mini-project-client.firebaseio.com",
+    projectId: "mini-project-client",
+    storageBucket: "mini-project-client.appspot.com",
+    messagingSenderId: "361415135338",
+    appId: "1:361415135338:web:b4b1f2df91650343bffa13",
+    measurementId: "G-HG64K9E922"
+  };
   
   export default config

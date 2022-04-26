@@ -19,7 +19,7 @@ function Table1() {
       <MDBCard>
       <MDBCardImage  src={logo}  />
         <MDBCardBody>
-          <MDBCardTitle>Please Click to Shop</MDBCardTitle>
+          <MDBCardTitle>Table1</MDBCardTitle>
           <Link to="/MenuPage" class="btn btn-success">MenuPage</Link>
         </MDBCardBody>
       </MDBCard>
