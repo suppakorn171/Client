@@ -44,7 +44,6 @@ function Home() {
         <Switch>
             <Route exact path="/" component={Homes} />
             <Route path="/MenuPage" component={MenuPage}/>
-            <Route path="/TotalMenu1" component={TotalMenu1}/>
 
         </Switch>
       </div>
@@ -57,14 +56,9 @@ const Homes =() =>(
   
       <body>
         <div class='bg-dark'>
-            <nav class="navbar navbar-expand">
-              <Carousel/>
-            </nav>
+            
           <div>
-            <div>
-              <br></br>
-                <p class='text-center bg-dark border border-white'>Please Select Table</p>
-            </div>
+            
            <div >
              <br/>
 
@@ -84,67 +78,4 @@ const Homes =() =>(
       </body>
 );
 
-/*
-<div className = 'aqua-gradient'>
-<div>
-  <br>
-  </br>
-<nav class="navbar navbar-expand">
-<Carousel/>
-  </nav>
-</div>
-<br></br>
-
-<div className="bg">
-    <Table1/>
-    <Table2/>
-    <Table3/>
-</div>
-
-
-
-</div>
-*/
-
-
 export default Home;
-
-/*
-      <Container>
-        <Row className = "ColortCol2">
-          <div>
-              <h2>Count:{number}</h2>
-            <h2>
-              <button onClick={() => actions.INCREMENT(number)}>INCREMENT</button>
-              <button onClick={() => actions.DECREMENT(number)}>DECREMENT</button>
-            </h2>
-          </div>
-        </Row>
-      </Container> 
-*/
-/*
-
-return ( //ใส่หน้าบ้าน
-  <div className = 'aqua-gradient'>
-    <div>
-    <HeaderSection title ='Wellcome to Cather'/>
-    </div>
-    <div>
-      <br>
-      </br>
-    <nav class="navbar navbar-expand">
-    <Carousel/>
-      </nav>
-    </div>
-<br></br>
-    <div class ="ContainerS  position-static ">
-    <ShowCard/>
-    </div>
-    <Container>
-      <CardLink/>
-    </Container>
-
-
-  </div>
-
-);*/

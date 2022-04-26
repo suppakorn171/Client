@@ -6,8 +6,8 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: #0288D1;
-    background: radial-gradient(circle, #039BE5, #01579b);
+    background-color: #182bd6;
+    background: radial-gradient(circle, #1f12da, #4954e7);
 }
   .pic {
     height:100px;
